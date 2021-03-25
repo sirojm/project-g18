@@ -1,0 +1,17 @@
+/* Untuk Tablets */
+@media (max-width: 1000px) {
+    .top-wrapper h1 {
+        font-size: 32px;
+      }
+}
+
+/* Untuk Smartphones */
+@media (max-width: 670px) {
+    .top-wrapper {
+        text-align: left;
+      }
+      
+      .top-wrapper h1 {
+        font-size: 24px;
+      }
+}
