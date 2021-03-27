@@ -54,7 +54,7 @@ header {
   line-height: 35px;
   padding: 0 25px;
   color: black;
-  font: bold;
+  font-style: bold;
   font-size: 150%;
   display: horizontal;
 }
@@ -74,7 +74,7 @@ header {
 
 .header-right a {
   line-height: 35px;
-  padding: 0 20px;
+  padding: 0 15px;
   color: white;
   display: horizontal;
 }
