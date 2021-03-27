@@ -51,12 +51,13 @@ li {
  }            
 
 .logo {
-  width: 124px; 
+  width: 150px; 
   margin-top: 20px;
   }
 
 .header-left {
   float: left;
+  transition: all 0.5s;
   }
   
   .header-right {
@@ -73,7 +74,7 @@ li {
     line-height: 65px;
     padding: 0 25px;
     color: white;            
-    display: block;
+    display: horizontal;
 }
 
   
