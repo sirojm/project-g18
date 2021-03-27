@@ -42,7 +42,7 @@ li {
   margin-right: 3px;
 }
  header {
-  height: 65px;
+  height: 85px;
   width: 100%;
   background-color: rgba(34, 49, 52, 0.9);
   position: fixed;
@@ -60,6 +60,10 @@ li {
 .header-left {
   float: left;
   transition: all 0.5s;
+  width: 150px; 
+  margin-top: 50px;
+  padding: 20px;
+  font: bold;
   }
   
   .header-right {
@@ -73,7 +77,7 @@ li {
   }            
   
   .header-right a {
-    line-height: 65px;
+    line-height: 45px;
     padding: 0 15px;
     color: white;            
     display: horizontal;
