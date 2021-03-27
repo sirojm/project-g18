@@ -38,21 +38,24 @@ li {
   list-style: none;
 }
   
- header {
-  height: 85px;
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
   width: 100%;
   background-color: rgba(34, 49, 52, 0.9);
   position: fixed;
   top: 0;
   z-index: 10;
- }            
+}
 
-.header-logo {
-  width: 150px; 
-  margin-top: 50px;
-  padding: 20px;
-  font: bold;
-  }
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
 
 .header-left {
   float: left;
