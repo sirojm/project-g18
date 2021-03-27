@@ -39,7 +39,7 @@ li {
 }
   
 .fa {
-  margin-right: 5px;
+  margin-right: 3px;
 }
  header {
   height: 65px;
@@ -50,9 +50,11 @@ li {
   z-index: 10;
  }            
 
-.logo {
+.header-logo {
   width: 150px; 
   margin-top: 50px;
+  padding: 20px;
+  font: bold;
   }
 
 .header-left {
