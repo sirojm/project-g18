@@ -52,8 +52,11 @@ header {
 }
 
 .header-logo {
+  line-height: 35px;
+  padding: 0 25px;
   width: 124px;
   margin-top: 20px;
+  font: bold;
 }
 
 
