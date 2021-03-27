@@ -50,7 +50,12 @@ header {
   top: 0;
   z-index: 10;
 }
-
+.header-logo {
+  line-height: 35px;
+  padding: 0 25px;
+  color: black;
+  display: horizontal;
+}
 .header-left {
   float: left;
 }
