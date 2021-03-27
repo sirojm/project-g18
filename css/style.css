@@ -51,9 +51,10 @@ header {
   z-index: 10;
 }
 .header-logo {
-  line-height: 35px;
-  padding: 0 25px;
+  line-height: 50px;
+  padding: 0 50px;
   color: black;
+  font: bold;
   display: horizontal;
 }
 .header-left {
