@@ -51,11 +51,11 @@ header {
   z-index: 10;
 }
 .header-logo {
-  line-height: 50px;
-  padding: 0 50px;
+  line-height: 35px;
+  padding: 0 25px;
   color: black;
   font: bold;
-  font-size: 50%;
+  font-size: 500%;
   display: horizontal;
 }
 .header-left {
@@ -73,8 +73,8 @@ header {
 }
 
 .header-right a {
-  line-height: 50px;
-  padding: 0 50px;
+  line-height: 35px;
+  padding: 0 25px;
   color: white;
   display: horizontal;
 }
