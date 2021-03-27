@@ -2,7 +2,26 @@
 @media (max-width: 1000px) {
     .top-wrapper h1 {
         font-size: 32px;
-      }
+    }
+    .profil{
+      flex-direction: column;
+      margin: 0 sauto;
+      padding: 100px 50px;
+    }
+    .profil-2{
+      flex-direction: column;
+      margin: 0 sauto;
+      padding: 100px 50px;
+    }
+    .txt-profil h3,p{
+      text-align: center;
+    }
+
+    .txt-profil{
+      width: 90%;
+      margin-top: 1em;
+    }
+
 }
 
 /* Untuk Smartphones */
@@ -14,4 +33,24 @@
       .top-wrapper h1 {
         font-size: 24px;
       }
+    .profil{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .profil-2{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .txt-profil h3,p{
+        text-align: center;
+    }
+
+    .txt-profil{
+        width: 90%;
+        margin-top: 1em;
+        font-size: 25px;
+    }
+    .txt-profil p{
+        font-size: 15px;
+    }
 }
