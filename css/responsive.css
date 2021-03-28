@@ -28,8 +28,11 @@
     }
     
     .header-logo {
-      text-align: left;   
+      width: 100%;
+      font: 50%;
+      text-align: center;   
     }
+    
      .header-right a {
        display: none;
        font-size: 50%;
@@ -79,7 +82,6 @@
         text-align: center;
     }
      .header-logo {
-      text-align: left;
       width: 100%;
       font: 50%;
       text-align: center;
