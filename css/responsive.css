@@ -102,4 +102,8 @@
     .menu-icon {
     display: block;
   }
+    .btn {
+    width: 100%;
+  }
+  
 }
