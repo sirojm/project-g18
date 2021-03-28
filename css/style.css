@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-family: "Poppins";
     height: 100%;
+    background-color: rgb(21,84,158);
   }
   
   a {
@@ -183,7 +184,7 @@ body {
 }
 
 .txt-profil p{
-    font-family: 'Poppins';
+   font-family: 'Poppins';
    font-weight: lighter; 
    font-size: 20px;
 }
@@ -199,20 +200,51 @@ body {
  input, textarea {
   width: 400px;
   margin-top: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   padding: 20px;
   font-size: 18px;
   border: 1px solid #dee7ec;
-  display:flex;
-  align-items: center;
 }
 
 /* Tambahkan CSS untuk contact-submit */
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: lightcyan;
+  padding-bottom: 120px;
+}
 .contact-submit {
   background-color: #dee7ec;
   color: #889eab;
+  align-items: center;
+  margin-top: 50px;
 }
-  
+
+.contact-form h2{
+  font-size: 30px;
+  font-family: 'Poppins';
+  font: weight 400px;
+  padding-top: 30px;
+}
+.contact-form p{
+  text-align: left;
+  margin-bottom: -10px;
+  font-size: 15px;
+}
+
+.section-title{
+  margin-bottom: 60px;
+}
+
+footer{
+  text-align: center;
+  padding-bottom: 50px;
+  background-color: rgb(21,84,158);
+  color: lightcyan;
+}
+
 
   
   
