@@ -40,7 +40,7 @@
      .header-right li {
        font-size: 50%;
        width: 50%;
-       text-align: auto;
+       text-align: horizontal;
     }   
 }
 
@@ -95,6 +95,6 @@
      .header-right li {
        width: 100%;
        font: 100%;
-       text-align: auto;
+       text-align: horizontal;
     }  
 }
