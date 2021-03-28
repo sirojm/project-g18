@@ -34,13 +34,13 @@
     .header-logo {
       width: 50%;
       font: 50%;
-      text-align: left;   
+      text-align: center;   
     }
     
      .header-right li {
        font-size: 50%;
        width: 50%;
-       text-align: right;
+       text-align: center;
     }   
 }
 
@@ -89,12 +89,12 @@
      .header-logo {
       width: 100%;
       font: 100%;
-      text-align: left;
+      text-align: center;
     }
     
      .header-right li {
        width: 100%;
        font: 100%;
-       text-align: right;
+       text-align: center;
     }  
 }
