@@ -28,7 +28,7 @@
     }
     
     .header-logo {
-      width: 100%;
+      width: 50%;
       font: 50%;
       text-align: left;   
     }
@@ -83,13 +83,13 @@
     }
      .header-logo {
       width: 100%;
-      font: 50%;
+      font: 100%;
       text-align: left;
     }
     
      .header-right a {
        width: 100%;
-       font: 50%;
+       font: 100%;
        text-align: left;
     }  
 }
