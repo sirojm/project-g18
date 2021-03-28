@@ -39,7 +39,7 @@
 /* Untuk Smartphones */
 @media (max-width: 670px) {
     .lesson {
-    width: 50%;
+    width: 100%;
     }
         
     .top-wrapper {
