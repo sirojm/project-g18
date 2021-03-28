@@ -50,6 +50,7 @@ header {
   top: 0;
   z-index: 10;
 }
+
 .header-logo {
   line-height: 35px;
   padding: 0 15px;
@@ -57,9 +58,6 @@ header {
   font-style: bold;
   font-size: 120%;
   display: horizontal;
-}
-.header-left {
-  float: left;
 }
 
 .header-right li {
