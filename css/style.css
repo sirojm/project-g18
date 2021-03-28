@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-}
+
 
 body {
     margin: 0;
@@ -169,6 +169,27 @@ header {
 }
   
   
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
 
+.contents-item {
+  float: left;
+  margin-right: 40px;
+}
+
+.contents-item p {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+/* Gantikan property padding-top milik contact-form to 100px */
+.contact-form {
+  padding: 100px;
+}
+}
   
   
