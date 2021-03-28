@@ -96,5 +96,14 @@
        width: 100%;
        font: 100%;
        text-align: right;
+       display: none;
     }  
+    
+    .menu-icon {
+    display: block;
+  }
+    .btn {
+    width: 100%;
+  }
+  
 }
