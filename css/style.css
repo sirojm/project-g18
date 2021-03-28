@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-
+}
 
 body {
     margin: 0;
@@ -189,7 +189,6 @@ header {
 /* Gantikan property padding-top milik contact-form to 100px */
 .contact-form {
   padding: 100px;
-}
 }
   
   
