@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: "Poppins";
+    height: 100%;
   }
   
   a {
@@ -19,6 +20,11 @@ body {
     background-size: cover;
     color: white;
     text-align: center;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   .top-wrapper h1 {
@@ -34,48 +40,85 @@ body {
   }
 
 /* Ketik code Anda dibawah */   
-li {
-  list-style: none;
-}
-  
-.fa {
-  margin-right: 5px;
-}
-
-header {
-  height: 65px;
-  width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   position: fixed;
-  top: 0;
+  background-color:rgb(9, 67, 133);
+  font-family: Arial;
+  height: 70px;
+  width: 100%;
   z-index: 10;
 }
 
-.header-logo {
-  line-height: 35px;
-  padding: 0 15px;
-  color: black;
-  font-style: bold;
-  font-size: 120%;
-  display: horizontal;
+.nav-menu{
+    display: flex;
 }
 
-.header-right li {
-  float: right;
-  background-color: rgba(255, 255, 255, 0.3);
-  transition: all 0.5s;
-}
-
-.header-right:hover {
-  background-color: rgba(255, 255, 255, 0.5);
-}
-
-.header-right li {
-  line-height: 25px;
-  padding: 0 25px;
+.navbar a {
+  float: left;
+  font-size: 16px;
   color: white;
-  display-list: horizontal;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
+
+.nav-logo {
+    font-family: 'Yellowtail';
+    font-size: 35px;
+    color: white;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 15px 20px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0; 
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: deepskyblue;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: rgba(134, 225, 255, 0.562);
+  ;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 
   
   .btn-wrapper {
@@ -86,9 +129,6 @@ header {
     margin: 10px 0;
   }
   
-  .profile {
-    background-color: #239b76;
-  }
   
   .btn {
     padding: 12px 24px;
@@ -104,7 +144,7 @@ header {
 
   .profil{
     padding: 100px 50px 20px 50px;
-    background-color: #264653;
+    background-color: rgb(21,84,158);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -153,7 +193,7 @@ header {
 }
 
 .body-profile-2{
-    background-color: #264653;
+    background-color: rgb(21,84,158);
 }
   
   

@@ -9,26 +9,30 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Yellowtail&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
         <!-- silahkan buat header disini ya -->
-        <div class="header">
-        <div class="lesson">
-        <div class="header-logo">G18 TEAM PROGATE - DTS 2021</div>
-        <div class="header-list">
-        <div class="container">
-        <div class="header-right">
-            <li>Sopian Amir<li/>
-            <li>Fazar Bahari<li/>
-            <li>Henni Mahdalena<li/>
-            <li>Kayam Wicaksono<li/>
-            <li>Muhammad Sirojuddin<li/>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
+        <nav class="navbar">
+            <div class="nav-logo">Team G-18</div>
+            <div class="nav-menu">
+                <a href="#">Home</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Team
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#sirojm">Muhammad Sirojuddin</a>
+                        <a href="#fazar">Fazar Bahari</a>
+                        <a href="#henni">Henni Mahdalena</a>
+                        <a href="#sopian">Sopian Amir</a>
+                        <a href="#kayam">Kayam Wicaksono</a>
+                    </div>
+                </div>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
      </header>
   
       <div class="top-wrapper">
@@ -37,60 +41,60 @@
           <h1>TEAM PROJECT CSS & HTML</h1>
           <p>Welcome to Our First Project in Digitalent Scholarship</p>
           <p>Press the button bellow to view our profile</p>
-          <div class="btn-wrapper">
+          <!--- <div class="btn-wrapper">
             <a href="#body-profile" class="btn profile">Team Profile</a>
-          </div>
+          </div> --->
         </div>
       </div>
     <div class="body-profile">
-        <div class="profil">
+        <div class="profil" id="sirojm">
             <img src="img/sirojm.jpeg" alt="" class="avatar move">
             <div class="txt-profil">
-                <marquee behavior="alternate"><h3>Muhammad Sirojuddin</h3></marquee>
+                <h3>Muhammad Sirojuddin</h3>
                 <p>Hallo, saya Muhammad Sirojuddin berdomisili di Pekalongan, sehari-hari saya bekerja di IAIN Pekalongan sebagai Staf IT. Background penddikan saya S1 Desain Grafis. Hobi saya adalah fotografi</p>
             </div>
         </div>
-        <svg class="waves" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#264653" fill-opacity="1" d="M0,224L30,192C60,160,120,96,180,101.3C240,107,300,181,360,213.3C420,245,480,235,540,197.3C600,160,660,96,720,106.7C780,117,840,203,900,245.3C960,288,1020,288,1080,256C1140,224,1200,160,1260,122.7C1320,85,1380,75,1410,69.3L1440,64L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"></path></svg>
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="rgb(21,84,158)" fill-opacity="1" d="M0,224L30,192C60,160,120,96,180,101.3C240,107,300,181,360,213.3C420,245,480,235,540,197.3C600,160,660,96,720,106.7C780,117,840,203,900,245.3C960,288,1020,288,1080,256C1140,224,1200,160,1260,122.7C1320,85,1380,75,1410,69.3L1440,64L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"></path></svg>
     </div>
     <div class="body-profile-2">
-        <div class="profil-2">
+        <div class="profil-2" id="fazar">
             <img src="img\fazarbahari.jpeg" alt="" class="avatar move">
             <div class="txt-profil">
-                <marquee behavior="alternate"><h3>Fazar Bahari</h3></marquee>
+                <h3>Fazar Bahari</h3>
                 <p>Hallo, saya Fazar Bahari berdomisili di Bekasi, sehari-hari saya bekerja di RS Masmitra sebagai Staf IT. Background penddikan saya S1 Informatika. Hobi saya adalah adventure</p>
             </div>
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="lightcyan" fill-opacity="1" d="M0,160L30,165.3C60,171,120,181,180,202.7C240,224,300,256,360,272C420,288,480,288,540,261.3C600,235,660,181,720,144C780,107,840,85,900,96C960,107,1020,149,1080,181.3C1140,213,1200,235,1260,234.7C1320,235,1380,213,1410,202.7L1440,192L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"></path></svg>
     </div>
     <div class="body-profile">
-        <div class="profil">
+        <div class="profil" id="henni">
             <img src="img\hennimahdalena.jpeg" alt="" class="avatar move">
             <div class="txt-profil">
-                <marquee behavior="alternate"><h3>Henni Mahdalena</h3></marquee>
+                <h3>Henni Mahdalena</h3>
                 <p>Hallo, saya Henni Mahdalena berdomisili di Semarang, sehari-hari saya bekerja sebagai Freelance Project Telekomunikasi. Background penddikan saya S1 Teknik Elektro. Hobi saya adalah membaca</p>
             </div>
         </div>
-        <svg class="waves" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#264653" fill-opacity="1" d="M0,224L30,192C60,160,120,96,180,101.3C240,107,300,181,360,213.3C420,245,480,235,540,197.3C600,160,660,96,720,106.7C780,117,840,203,900,245.3C960,288,1020,288,1080,256C1140,224,1200,160,1260,122.7C1320,85,1380,75,1410,69.3L1440,64L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"></path></svg>
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="rgb(21,84,158)" fill-opacity="1" d="M0,224L30,192C60,160,120,96,180,101.3C240,107,300,181,360,213.3C420,245,480,235,540,197.3C600,160,660,96,720,106.7C780,117,840,203,900,245.3C960,288,1020,288,1080,256C1140,224,1200,160,1260,122.7C1320,85,1380,75,1410,69.3L1440,64L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"></path></svg>
     </div>
     <div class="body-profile-2">
-        <div class="profil-2">
+        <div class="profil-2" id="sopian">
             <img src="img\sopianamir.jpeg" alt="" class="avatar move">
             <div class="txt-profil">
-                <marquee behavior="alternate"><h3>Sopian Amir</h3></marquee>
+                <h3>Sopian Amir</h3>
                 <p>Hallo, saya Sopian Amir berdomisili di Bogor, sehari-hari saya bekerja di  Badan Pengkajian dan Penerapan Teknologi (BPPT) sebagai Staf Engineer. Background penddikan saya S1 Informatika. Hobi saya adalah running & adventure</p>
             </div>
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="lightcyan" fill-opacity="1" d="M0,160L30,165.3C60,171,120,181,180,202.7C240,224,300,256,360,272C420,288,480,288,540,261.3C600,235,660,181,720,144C780,107,840,85,900,96C960,107,1020,149,1080,181.3C1140,213,1200,235,1260,234.7C1320,235,1380,213,1410,202.7L1440,192L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"></path></svg>
     </div>
     <div class="body-profile">
-        <div class="profil">
+        <div class="profil" id="kayam">
             <img src="img\kayamwicaksono.jpeg" alt="" class="avatar move">
             <div class="txt-profil">
-                <marquee behavior="alternate"><h3>Kayam Wicaksono</h3></marquee>
+                <h3>Kayam Wicaksono</h3>
                 <p>Hallo, saya Kayam Wicaksono berdomisili di Jakarta Barat, sehari-hari saya bekerja di RS Mayapada Kuningan sebagai Staf IT. Background penddikan saya S1 Informatika. Hobi saya adalah hiking</p>
             </div>
         </div>
-        <svg class="waves" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#264653" fill-opacity="1" d="M0,224L30,192C60,160,120,96,180,101.3C240,107,300,181,360,213.3C420,245,480,235,540,197.3C600,160,660,96,720,106.7C780,117,840,203,900,245.3C960,288,1020,288,1080,256C1140,224,1200,160,1260,122.7C1320,85,1380,75,1410,69.3L1440,64L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"></path></svg>
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="rgb(21,84,158)" fill-opacity="1" d="M0,224L30,192C60,160,120,96,180,101.3C240,107,300,181,360,213.3C420,245,480,235,540,197.3C600,160,660,96,720,106.7C780,117,840,203,900,245.3C960,288,1020,288,1080,256C1140,224,1200,160,1260,122.7C1320,85,1380,75,1410,69.3L1440,64L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"></path></svg>
     </div>
   
       <footer>
