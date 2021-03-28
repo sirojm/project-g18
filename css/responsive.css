@@ -5,6 +5,10 @@
     margin-bottom: 50px;
     }
     
+    .top-wrapper {
+        background-image: center;
+    }
+    
     .top-wrapper h1 {
         font-size: 32px;
     }
@@ -36,8 +40,7 @@
      .header-right li {
        font-size: 50%;
        width: 50%;
-       text-align: left;
-       display: vertical;
+       text-align: right;
     }   
 }
 
@@ -49,6 +52,7 @@
         
     .top-wrapper {
         text-align: center;
+        background-image: center;
       }
       
       .top-wrapper h1 {
@@ -91,6 +95,6 @@
      .header-right li {
        width: 100%;
        font: 100%;
-       text-align: left;
+       text-align: right;
     }  
 }
