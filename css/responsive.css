@@ -33,6 +33,7 @@
      .header-right a {
        display: none;
        font-size: 20px;
+       width: 50%;
     }   
 }
 
@@ -82,5 +83,6 @@
     }
      .header-right a {
        display: none;
+       width: 100%;
     }  
 }
