@@ -25,6 +25,9 @@
     .header {
       text-align: left;   
     }
+     .header-right {
+       display: none;
+    }   
 }
 
 /* Untuk Smartphones */
@@ -59,4 +62,7 @@
      .header {
       text-align: left;   
     }
+     .header-right {
+       display: none;
+    }  
 }
