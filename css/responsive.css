@@ -92,6 +92,10 @@
       text-align: auto;
     }
     
+    .header-right {
+    display: none;
+  }
+    
      .header-right li {
        width: 100%;
        font: 100%;
