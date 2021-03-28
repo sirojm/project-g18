@@ -1,6 +1,6 @@
 /* Untuk Tablets */
-@media (max-width: 1000px) {
-    .lesson {
+@media all and (max-width: 1000px) {
+.lesson {
     width: 50%;
     margin-bottom: 50px;
     }
@@ -31,7 +31,7 @@
       margin-top: 1em;
     }
     
-    .header-logo {
+/*     .header-logo {
       width: 50%;
       font: 50%;
       text-align: auto;   
@@ -41,7 +41,8 @@
        font-size: 50%;
        width: 50%;
        text-align: right;
-    }   
+    }    */
+    
 }
 
 /* Untuk Smartphones */
@@ -49,6 +50,18 @@
     .lesson {
     width: 100%;
     }
+    
+    nav-logo {
+    font-size: 28px;
+    }
+    
+     footer {
+        text-align: center;
+      }
+    
+     .btn {
+        width: 100%;
+      }    
         
     .top-wrapper {
         text-align: center;
@@ -64,6 +77,10 @@
         font-size: 14px;
         line-height: 20px;
       }
+    
+    .header-right {
+    display: none;
+  }
     
     .profil{
         flex-direction: column;
@@ -86,24 +103,27 @@
         font-size: 15px;
         text-align: center;
     }
-     .header-logo {
+    
+/*      .header-logo {
       width: 100%;
       font: 100%;
       text-align: auto;
     }
+     */
     
-     .header-right li {
+/*      .header-right li {
        width: 100%;
        font: 100%;
        text-align: right;
        display: none;
-    }  
+    }   */
     
     .menu-icon {
     display: block;
   }
-    .btn {
+
+/*     .btn {
     width: 100%;
-  }
+  } */
   
 }
