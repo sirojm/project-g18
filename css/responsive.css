@@ -21,7 +21,10 @@
       width: 90%;
       margin-top: 1em;
     }
-
+    
+    .header {
+      text-align: left;   
+    }
 }
 
 /* Untuk Smartphones */
@@ -52,5 +55,8 @@
     }
     .txt-profil p{
         font-size: 15px;
+    }
+     .header {
+      text-align: left;   
     }
 }
