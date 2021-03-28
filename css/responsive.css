@@ -30,13 +30,13 @@
     .header-logo {
       width: 100%;
       font: 50%;
-      text-align: center;   
+      text-align: left;   
     }
     
      .header-right a {
-       display: none;
        font-size: 50%;
        width: 50%;
+       text-align: left;
     }   
 }
 
@@ -84,11 +84,10 @@
      .header-logo {
       width: 100%;
       font: 50%;
-      text-align: center;
+      text-align: left;
     }
     
      .header-right a {
-       display: none;
        width: 100%;
        font: 50%;
        text-align: center;
