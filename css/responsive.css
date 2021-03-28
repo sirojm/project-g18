@@ -97,4 +97,8 @@
        font: 100%;
        text-align: right;
     }  
+    
+    .menu-icon {
+    display: block;
+  }
 }
