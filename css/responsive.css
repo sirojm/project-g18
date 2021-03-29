@@ -7,7 +7,7 @@
     
     .top-wrapper {
         background-image: center;
-        width: 50%;
+        width: 100%;
     }
     
     .top-wrapper h1 {
@@ -32,33 +32,17 @@
       margin-top: 1em;
     }
     
-      .header-logo {
-      width: 50%;
-      font: 50%;
-      text-align: auto;   
-    } 
-    
     .nav-logo {
-    font-size: 28px;
-    width: 50%;
+      font-size: 28px;
     }
     
     .contact-form {
-     width: 50%;
+     width: 100%;
      text-align: center;
     }
     
-    .navbar a{
-      width: 50%;
-    } 
+       
     
-   .input {
-   width: 50%;
-   }     
-    
-   .nav-menu {
-    width: 50%;
-   }
     
    .dropdown {
     width: 50%;
@@ -72,13 +56,14 @@
     width: 100%;
     }
     
-    .nav-logo {
-    font-size: 28px;
+   /* .nav-logo {
+    font-size: 20px;
     width: 100%;
     }
-    
+    */
     .navbar a{
-      width: 100%;
+      font-size: 15px;
+      /*padding: 14px 5px;*/
     }  
    
      footer {
@@ -91,7 +76,6 @@
         
     .top-wrapper {
         text-align: center;
-        background-image: 100%;
         width: 100%;
       }
       
@@ -104,10 +88,6 @@
         font-size: 14px;
         line-height: 20px;
       }
-    
-    .header-right {
-    display: none;
-  }
     
     .profil{
         flex-direction: column;
@@ -130,37 +110,28 @@
         font-size: 15px;
         text-align: center;
     }
-    
-     .header-logo {
-      width: 100%;
-      font: 100%;
-      text-align: auto;
-    }
-    
-    .menu-icon {
-    display: block;
-    width: 100%;
-  }
 
-    .btn {
-    width: 100%;
-  }
-   
      .contact-form {
      width: 100%;
      text-align: center;
     }
     
-   .input {
-   width: 100%;
-   } 
-    
-    .nav-menu {
+   /* .nav-menu {
     width: 100%;
-   }
-    
-   .dropdown {
-    width: 100%;
+   }*/
+  
+
+
+  .nav-menu{
+    display: none;
+  }
+  
+  .menu-toggle{
+    display: flex;
+    flex-direction: column;
+  } 
+   input, textarea{
+     width: 75%;
    }
   
 }

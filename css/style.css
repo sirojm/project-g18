@@ -47,7 +47,7 @@ body {
   justify-content: space-around;
   align-items: center;
   position: fixed;
-  background-color:rgb(21,84,158);
+  background-color:rgb(13, 59, 112);
   font-family: Arial;
   height: 70px;
   width: 100%;
@@ -243,6 +243,18 @@ footer{
   padding-bottom: 50px;
   background-color: rgb(21,84,158);
   color: lightcyan;
+}
+
+.menu-toggle{
+  display: none;
+}
+.line{
+  width: 30px;
+  height: 3px;
+  background-color: white;
+  border-radius: 3px;
+  margin: 3px 0;
+
 }
 
 
