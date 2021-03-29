@@ -32,18 +32,16 @@
       margin-top: 1em;
     }
     
-       .header-logo {
+      .header-logo {
       width: 50%;
       font: 50%;
       text-align: auto;   
+    } 
+    
+    nav-logo {
+    font-size: 28px;
+    width: 50%;
     }
-    
-     .header-right li {
-       font-size: 50%;
-       width: 50%;
-       text-align: right;
-    }    
-    
 }
 
 /* Untuk Smartphones */
@@ -54,6 +52,7 @@
     
     nav-logo {
     font-size: 28px;
+    width: 100%;
     }
     
      footer {
@@ -111,14 +110,6 @@
       font: 100%;
       text-align: auto;
     }
-     
-    
-       .header-right li {
-       width: 100%;
-       font: 100%;
-       text-align: right;
-       display: none;
-    }   
     
     .menu-icon {
     display: block;
