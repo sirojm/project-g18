@@ -45,6 +45,7 @@
     
     .contact-form {
      width: 50%;
+     text-align: center;
     }
 }
 
@@ -125,7 +126,8 @@
   }
    
      .contact-form {
-     width: 50%;
+     width: 100%;
+     text-align: center;
     }
   
 }
