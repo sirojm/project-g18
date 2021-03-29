@@ -47,6 +47,14 @@
      width: 50%;
      text-align: center;
     }
+    
+    .navbar a{
+      width: 50%;
+    } 
+    
+   input {
+   width: 50%;
+   }     
 }
 
 /* Untuk Smartphones */
@@ -60,6 +68,10 @@
     width: 100%;
     }
     
+    .navbar a{
+      width: 100%;
+    }  
+   
      footer {
         text-align: center;
       }
@@ -129,5 +141,9 @@
      width: 100%;
      text-align: center;
     }
+    
+   input {
+   width: 100%;
+   } 
   
 }
