@@ -38,9 +38,13 @@
       text-align: auto;   
     } 
     
-    nav-logo {
+    .nav-logo {
     font-size: 28px;
     width: 50%;
+    }
+    
+    .contact-form {
+     width: 50%;
     }
 }
 
@@ -50,7 +54,7 @@
     width: 100%;
     }
     
-    nav-logo {
+    .nav-logo {
     font-size: 28px;
     width: 100%;
     }
@@ -119,5 +123,9 @@
     .btn {
     width: 100%;
   }
+   
+     .contact-form {
+     width: 50%;
+    }
   
 }
