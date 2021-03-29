@@ -7,6 +7,7 @@
     
     .top-wrapper {
         background-image: center;
+        width: 50%;
     }
     
     .top-wrapper h1 {
@@ -31,7 +32,7 @@
       margin-top: 1em;
     }
     
-/*     .header-logo {
+       .header-logo {
       width: 50%;
       font: 50%;
       text-align: auto;   
@@ -41,7 +42,7 @@
        font-size: 50%;
        width: 50%;
        text-align: right;
-    }    */
+    }    
     
 }
 
@@ -66,6 +67,7 @@
     .top-wrapper {
         text-align: center;
         background-image: center;
+        width: 100%;
       }
       
       .top-wrapper h1 {
@@ -104,26 +106,27 @@
         text-align: center;
     }
     
-/*      .header-logo {
+     .header-logo {
       width: 100%;
       font: 100%;
       text-align: auto;
     }
-     */
+     
     
-/*      .header-right li {
+       .header-right li {
        width: 100%;
        font: 100%;
        text-align: right;
        display: none;
-    }   */
+    }   
     
     .menu-icon {
     display: block;
+    width: 100%;
   }
 
-/*     .btn {
+    .btn {
     width: 100%;
-  } */
+  }
   
 }
