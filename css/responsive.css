@@ -52,9 +52,18 @@
       width: 50%;
     } 
     
-   input {
+   .input {
    width: 50%;
    }     
+    
+   .nav-menu {
+    width: 50%;
+   }
+    
+   .dropdown {
+    width: 50%;
+   }
+    
 }
 
 /* Untuk Smartphones */
@@ -142,8 +151,16 @@
      text-align: center;
     }
     
-   input {
+   .input {
    width: 100%;
    } 
+    
+    .nav-menu {
+    width: 100%;
+   }
+    
+   .dropdown {
+    width: 100%;
+   }
   
 }
